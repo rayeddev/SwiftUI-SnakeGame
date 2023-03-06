@@ -12,6 +12,7 @@ struct snakeGameApp: App {
     var body: some Scene {
         WindowGroup {
             GameControlView()
+                .environmentObject(SankeGame(boardWidth: 20))
         }
     }
 }
