@@ -6,3 +6,6 @@ Educational purpose SwiftUI implementation of Snake Game
 - food (snake grow)
 - scoring
 - difficulty levels (ticking speed)
+
+### Screenshot
+![alt](https://)
