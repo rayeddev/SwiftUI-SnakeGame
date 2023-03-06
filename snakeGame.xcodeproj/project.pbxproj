@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16CFFD2128CDC67100992A78 /* snakeGame1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CFFD2028CDC67100992A78 /* snakeGame1App.swift */; };
-		16CFFD2328CDC67100992A78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CFFD2228CDC67100992A78 /* ContentView.swift */; };
+		160D9AF029B380F100175F83 /* SankeGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160D9AEF29B380F100175F83 /* SankeGameView.swift */; };
+		160D9AF229B5970C00175F83 /* Sanke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160D9AF129B5970C00175F83 /* Sanke.swift */; };
+		16CFFD2128CDC67100992A78 /* snakeGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CFFD2028CDC67100992A78 /* snakeGameApp.swift */; };
+		16CFFD2328CDC67100992A78 /* GameControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CFFD2228CDC67100992A78 /* GameControlView.swift */; };
 		16CFFD2528CDC67300992A78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16CFFD2428CDC67300992A78 /* Assets.xcassets */; };
 		16CFFD2828CDC67300992A78 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16CFFD2728CDC67300992A78 /* Preview Assets.xcassets */; };
+		16CFFD2F28CDC6A400992A78 /* SnakeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CFFD2E28CDC6A400992A78 /* SnakeGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		16CFFD1D28CDC67100992A78 /* snakeGame1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snakeGame1.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		16CFFD2028CDC67100992A78 /* snakeGame1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snakeGame1App.swift; sourceTree = "<group>"; };
-		16CFFD2228CDC67100992A78 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		160D9AEF29B380F100175F83 /* SankeGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SankeGameView.swift; sourceTree = "<group>"; };
+		160D9AF129B5970C00175F83 /* Sanke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sanke.swift; sourceTree = "<group>"; };
+		16CFFD1D28CDC67100992A78 /* snakeGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snakeGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16CFFD2028CDC67100992A78 /* snakeGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snakeGameApp.swift; sourceTree = "<group>"; };
+		16CFFD2228CDC67100992A78 /* GameControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameControlView.swift; sourceTree = "<group>"; };
 		16CFFD2428CDC67300992A78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16CFFD2728CDC67300992A78 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		16CFFD2E28CDC6A400992A78 /* SnakeGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +41,7 @@
 		16CFFD1428CDC67100992A78 = {
 			isa = PBXGroup;
 			children = (
-				16CFFD1F28CDC67100992A78 /* snakeGame1 */,
+				16CFFD1F28CDC67100992A78 /* snakeGame */,
 				16CFFD1E28CDC67100992A78 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +49,23 @@
 		16CFFD1E28CDC67100992A78 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				16CFFD1D28CDC67100992A78 /* snakeGame1.app */,
+				16CFFD1D28CDC67100992A78 /* snakeGame.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		16CFFD1F28CDC67100992A78 /* snakeGame1 */ = {
+		16CFFD1F28CDC67100992A78 /* snakeGame */ = {
 			isa = PBXGroup;
 			children = (
-				16CFFD2028CDC67100992A78 /* snakeGame1App.swift */,
-				16CFFD2228CDC67100992A78 /* ContentView.swift */,
+				160D9AF129B5970C00175F83 /* Sanke.swift */,
+				16CFFD2028CDC67100992A78 /* snakeGameApp.swift */,
+				16CFFD2E28CDC6A400992A78 /* SnakeGame.swift */,
+				16CFFD2228CDC67100992A78 /* GameControlView.swift */,
+				160D9AEF29B380F100175F83 /* SankeGameView.swift */,
 				16CFFD2428CDC67300992A78 /* Assets.xcassets */,
 				16CFFD2628CDC67300992A78 /* Preview Content */,
 			);
-			path = snakeGame1;
+			path = snakeGame;
 			sourceTree = "<group>";
 		};
 		16CFFD2628CDC67300992A78 /* Preview Content */ = {
@@ -70,9 +79,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		16CFFD1C28CDC67100992A78 /* snakeGame1 */ = {
+		16CFFD1C28CDC67100992A78 /* snakeGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 16CFFD2B28CDC67300992A78 /* Build configuration list for PBXNativeTarget "snakeGame1" */;
+			buildConfigurationList = 16CFFD2B28CDC67300992A78 /* Build configuration list for PBXNativeTarget "snakeGame" */;
 			buildPhases = (
 				16CFFD1928CDC67100992A78 /* Sources */,
 				16CFFD1A28CDC67100992A78 /* Frameworks */,
@@ -82,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = snakeGame1;
+			name = snakeGame;
 			productName = snakeGame1;
-			productReference = 16CFFD1D28CDC67100992A78 /* snakeGame1.app */;
+			productReference = 16CFFD1D28CDC67100992A78 /* snakeGame.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 16CFFD1828CDC67100992A78 /* Build configuration list for PBXProject "snakeGame1" */;
+			buildConfigurationList = 16CFFD1828CDC67100992A78 /* Build configuration list for PBXProject "snakeGame" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				16CFFD1C28CDC67100992A78 /* snakeGame1 */,
+				16CFFD1C28CDC67100992A78 /* snakeGame */,
 			);
 		};
 /* End PBXProject section */
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16CFFD2328CDC67100992A78 /* ContentView.swift in Sources */,
-				16CFFD2128CDC67100992A78 /* snakeGame1App.swift in Sources */,
+				16CFFD2F28CDC6A400992A78 /* SnakeGame.swift in Sources */,
+				160D9AF229B5970C00175F83 /* Sanke.swift in Sources */,
+				160D9AF029B380F100175F83 /* SankeGameView.swift in Sources */,
+				16CFFD2328CDC67100992A78 /* GameControlView.swift in Sources */,
+				16CFFD2128CDC67100992A78 /* snakeGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +285,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -282,9 +295,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rayeddev.gmaing.snakeGame1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,8 +318,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,16 +328,19 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rayeddev.gmaing.snakeGame1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		16CFFD1828CDC67100992A78 /* Build configuration list for PBXProject "snakeGame1" */ = {
+		16CFFD1828CDC67100992A78 /* Build configuration list for PBXProject "snakeGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				16CFFD2928CDC67300992A78 /* Debug */,
@@ -329,7 +349,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		16CFFD2B28CDC67300992A78 /* Build configuration list for PBXNativeTarget "snakeGame1" */ = {
+		16CFFD2B28CDC67300992A78 /* Build configuration list for PBXNativeTarget "snakeGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				16CFFD2C28CDC67300992A78 /* Debug */,
