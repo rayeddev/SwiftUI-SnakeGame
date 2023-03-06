@@ -8,4 +8,4 @@ Educational purpose SwiftUI implementation of Snake Game
 - difficulty levels (ticking speed)
 
 ### Screenshot
-![alt](https://)
+![alt](https://https://github.com/rayeddev/SwiftUI-SnakeGame/blob/main/Screenshot.png)
